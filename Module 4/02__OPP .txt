@@ -1,0 +1,10 @@
+OPP -> Object Oriented Progaramming.
+
+<-- List of OPP Concepts -->
+        1. Inheritance
+        2. Polymorphism
+        3. Abstraction
+        4. Encapsulation
+        5. Exception Handling
+        6. Class
+        7. Object
