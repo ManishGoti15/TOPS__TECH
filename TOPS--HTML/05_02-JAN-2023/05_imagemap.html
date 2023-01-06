@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+</head>
+<body>
+    <img src="imagemap.jpeg" alt="" usemap="#RCP"/>
+
+    <map name="RCP">
+
+        <!--x1 = 427, y1 = 361, x2 = 477, 
+            r =x2 - x1 = 477 - 427 = 50 -->
+        <area shape="circle" 
+              coords="427,361,50" 
+              href="imgmap_circle.jpg" 
+              alt=""
+        />
+
+        <area shape="rect" 
+              coords="97,163,207,356" 
+              href="imgmap_rect.jpg" 
+              alt=""
+        />
+
+        <area shape="poly" 
+              coords="102,544,172,541,242,544,236,584,203,621,143,621,107,584" 
+              href="imgmap_poly.jpg" 
+              alt=""
+        />
+    </map>
+</body>
+</html>
