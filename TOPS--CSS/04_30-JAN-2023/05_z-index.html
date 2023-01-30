@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            height: 250px;
+            width: 250px;
+        }
+        .main {
+            position: relative;
+        }
+        .div1 {
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            z-index: 1;
+        }
+        .div2 {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+            z-index: 1;
+        }
+        .div3 {
+            position: absolute;
+            top: 120px;
+            left: 120px;
+            z-index: 1;
+        }
+        .div4 {
+            position: absolute;
+            top: 160px;
+            left: 160px;
+            z-index: -1;
+        }
+        .div5 {
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            z-index: -1;
+        }
+        .div6 {
+            position: absolute;
+            top: 240px;
+            left: 240px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="div1">
+        <img src="images/img1.jpeg" alt="" class="img1">
+        </div> 
+        <div class="div2">
+        <img src="images/img2.jpeg" alt="">
+        </div> 
+        <div class="div3">
+        <img src="images/img3.jpeg" alt="">
+        </div> 
+        <div class="div4">
+        <img src="images/img4.jpeg" alt="">
+        </div> 
+        <div class="div5">
+        <img src="images/img5.jpeg" alt="">
+        </div> 
+        <div class="div6">
+        <img src="images/img6.jpeg" alt="">
+        </div> 
+    </div>
+</body>
+</html>

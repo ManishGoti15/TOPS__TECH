@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div  {
+            height: auto;
+            width: 250px;
+            border: 5px groove darkcyan;
+            padding: 20px;
+            margin: auto;
+        }
+        div::first-letter {
+            font-size: 40px;
+        }
+        div::first-line {
+            color: lightcoral;
+        }
+        /* div::before {
+            content: "";
+        }
+        div::after {
+            content: "";
+        } */
+        div::selection {
+            color: midnightblue;
+            background-color: lightsteelblue;
+        }
+        li::marker {
+            color: olive;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga harum expedita maxime, error sint alias unde debitis. Molestias dignissimos, voluptatibus mollitia pariatur delectus dolorum architecto impedit. Esse molestiae eligendi ea.
+    </div>
+
+    <ul>
+        <li>HOME</li>
+        <li>SERVICES</li>
+    </ul>
+</body>
+</html>
