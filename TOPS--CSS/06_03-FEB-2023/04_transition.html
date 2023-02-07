@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 150px;
+            width: 150px;
+            margin: 20px;
+        }
+        .div1 {
+            background-color: cadetblue;
+            transition: 2s all ease;
+            transition-delay: 1s;
+        }
+        .div1:hover {
+            width: 350px;
+        }
+        .div2 {
+            background-color: darkolivegreen;
+            transition: 2s all ease-in;
+        }
+        .div2:hover {
+            width: 350px;
+        }
+        .div3 {
+            background-color: darkslategrey;
+            transition: 2s all ease-in-out;
+        }
+        .div3:hover {
+            width: 350px;
+        }
+        .div4 {
+            background-color: midnightblue;
+            transition: 2s all ease-out;
+        }
+        .div4:hover {
+            width: 350px;
+        }
+        .div5 {
+            background-color: seagreen;
+            transition: 2s all linear;
+        }
+        .div5:hover {
+            width: 350px;
+        }
+        .div6 {
+            background-color: dimgray;
+            transition: 2s all cubic-bezier(1, 0, 0, 1);
+        }
+        .div6:hover {
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <div class="div4"></div>
+    <div class="div5"></div>
+    <div class="div6"></div>
+</body>
+</html>
