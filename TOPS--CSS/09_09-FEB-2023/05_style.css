@@ -1,0 +1,41 @@
+body {
+    background-image: linear-gradient(rgb(21, 205, 196), rgb(155, 42, 204))
+}    
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.main {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: center;
+}
+button {
+    height: 55px;
+    width: 150px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.317);
+    border: 5px solid rgba(76, 75, 75, 0.317);
+    border-radius: 10px;
+    transition: 2s all ease;
+}
+
+.btn1:hover {
+    transform: rotate(360deg);
+}
+.btn2:hover {
+    transform: rotateX(360deg);
+}
+.btn3:hover {
+    transform: rotateY(360deg);
+}
+.btn4:hover {
+    transform: skewX(30deg);
+}
+.btn5:hover {
+    transform: skewY(20deg);
+}

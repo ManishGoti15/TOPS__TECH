@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=., initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            height: 120px;
+            width: 120px;
+            border-top: 5px solid rgb(11, 84, 31);
+            border-bottom: 5px solid rgb(11, 84, 31);
+            border-right: 5px solid rgb(57, 204, 46);
+            border-left: 5px solid rgb(57, 204, 46);
+            margin: 180px auto;
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            animation: loader1 2s ease infinite alternate-reverse;
+        }
+
+        .inner-main {
+            height: 100px;
+            width: 100px;
+            border-right: 5px solid rgb(56, 132, 50);
+            border-bottom: 5px solid rgb(16, 241, 0);
+            border-top: 5px solid rgb(16, 241, 0);
+            border-left: 5px solid rgb(56, 132, 50);
+            /* margin: auto; */
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            animation: loader2 2s ease infinite alternate-reverse;
+        }
+
+        .sub {
+            height: 80px;
+            width: 80px;
+            border-bottom: 5px solid rgb(57, 204, 46);
+            border-top: 5px solid rgb(57, 204, 46);
+            border-right: 5px solid rgb(11, 84, 31);
+            border-left: 5px solid rgb(11, 84, 31);
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            animation: loader3 2s ease infinite alternate-reverse;
+        }
+
+        .inner-sub {
+            height: 60px;
+            width: 60px;
+            border-left: 5px solid rgb(16, 241, 0);
+            border-right: 5px solid rgb(16, 241, 0);
+            border-bottom: 5px solid rgb(56, 132, 50);
+            border-top: 5px solid rgb(56, 132, 50);
+            display: grid;
+            place-items: center;
+            border-radius: 50%;
+            animation: loader4 2s ease infinite alternate-reverse;
+        }
+
+        @keyframes loader1 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes loader2 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes loader3 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes loader4 {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="inner-main">
+            <div class="sub">
+                <div class="inner-sub"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
