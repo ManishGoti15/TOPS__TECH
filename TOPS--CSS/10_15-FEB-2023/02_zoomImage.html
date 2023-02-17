@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .zoomImage {
+            height: 400px;
+            width: 500px;
+            border: 5px solid black;
+            margin: 100px auto;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        img {
+            height: 400px;
+            width: 500px;
+        }
+
+        .img1 {
+            transition: 1s all ease;
+        }
+
+        .img1:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="zoomImage">
+        <img src="Image1.jpeg" alt="" class="img1">
+    </div>
+</body>
+
+</html>
