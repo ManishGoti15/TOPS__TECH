@@ -1,0 +1,178 @@
+Q-1. What are the benefits of using CSS?
+Ans.  --> 1.Easier to maintain and update
+          2.Greater consistency in design
+          3.More formatting options
+          4.Lightweight code
+          5.Faster download times
+          6.Search engine optimization benefits
+          7.Ease of presenting different styles to different viewers
+          8.Greater accessibility
+
+
+Q-2. What are the disadvantages of CSS? 
+Ans.  -->CSS, CSS 1 up to CSS3, result in creating of confusion 
+      among  web browsers. 
+
+      -->With CSS, what works with one browser might not always work with another. The web developers need to test for compatibility, running the program across multiple browsers.
+      
+      -->There exists a scarcity of security.
+      
+      -->After making the changes we need to confirm the compatibility if they appear. The similar change affects on all the browsers.
+      
+      -->The programing language world is complicated for non-developers and beginners. Different levels of CSS i.e. CSS, CSS 2, CSS 3 are often quite confusing.
+      
+      -->Browser compatibility (some styles sheet are supported and some are not).
+      
+      -->CSS works differently on different browsers. IE and Opera supports CSS as different logic.
+      
+      -->There might be cross-browser issues while using CSS.
+      
+      -->There are multiple levels which creates confusion for non-developers and beginners.
+
+
+Q-3. What is the difference between CSS2 and CSS3
+Ans. --> CSS2 : 
+        splits up different section of the code into modules.there are new ways you can write CSS2 rules with a bunch of CSS2 selectors.there is no backward compatibility with CSS2.with CSS2 only web safe fonts can be used. CSS2 does not support the border box property.
+
+        CSS3 :
+        CSS3 and HTML were put into a single file there was no concept of modules before. there were no new ways of writing the CSS rules.there is backward compatibility maintained with CSS3.CSS3 special fonts can be used such as those in google fonst and TypeCast.CSS3 supports the border box property
+
+
+Q-4. Name a few CSS style components.
+Ans. --> 1)Selecter:HTML element name, id name, 
+         class name.
+         2)Property:It's like an attribute such as background color,font-size,position,text-align,color,border etc.
+         3)Values:which defines property or values allocate for properties.
+
+
+Q-5. What do you understand by CSS opacity?
+Ans. --> The opacity CSS property sets the opacity of an element. 
+         Opacity is the degree to which content behind an element is hidden, and is the opposite of transparency.
+
+
+Q-6. How can the background color of an element be changed?
+Ans. -->The background color of a web page or an element on the web 
+        page, enable us to create unique layouts for the web page.
+
+     -->HTML5 do not support the <body> tag bgcolor attribute, so 
+        the CSS style is used to add background color. The bgcolor attribute deprecated in HTML5.
+
+     -->We can change the background color by overriding the 
+        web page.
+
+
+Q-7. How can image repetition of the backup be controlled? 
+Ans. -->The background-repeat property in CSS is used to repeat the 
+        background image both horizontally and vertically. It also decides whether the background image will be repeated or not.
+
+
+Q-8. What is the use of the background-position property?
+Ans. -->The background-position property in CSS is mainly used to 
+        sets the initial position for the background image ie., it is used to set an image at a certain position. The position that is relative to the positioning layer, can be set by using the background-origin property. 
+
+
+Q-9. Which property controls the image scroll in the background? 
+Ans. -->The background-attachment property sets whether a background 
+        image scrolls with the rest of the page, or is fixed.
+
+
+Q-10. Why should background and color be used as separate 
+      properties? 
+Ans. -->It enhances the legibility of style sheets. The background   
+        property is a complex property in CSS, and if it is combined with color, the complexity will further increase.
+
+     -->Color is an inherited property while the background is not. 
+        So this can make confusion further.
+      
+
+Q-11. How to center block elements using CSS1?
+Ans. -->Step 1:
+        Define the external width – We need to define the external width. Block-level elements have the default width of 100% of the webpage, so for centering the block element, we need space around it. So for generating the space, we are giving it a width.
+
+        Step 2: 
+        Set the left-margin and the right-margin of the element to auto – Since we produced a remaining space by providing external width so now we need to align that space properly that’s why we should use margin property. Margin is a property that tells how to align a remaining space. So for centering the element you must set left-margin to auto and right-margin to auto.
+ 
+
+Q-12. How to maintain the CSS specifications?
+Ans. -->
+
+
+Q-13. What are the ways to integrate CSS as a web page?
+Ans. -->1.Inline - Inline is the term used when you write your CSS 
+        code within the style attribute of any HTML element.
+
+        2.Internal - internal CSS is implemented within the head  element of your web page.
+
+        3.External - external CSS implementation is done by creating a separate CSS file in your workspace and then linking them in every web page you create.
+
+
+Q-14. What is embedded style sheets?
+Ans. -->Embedded style sheets allow you to define styles for the 
+        whole HTML document in one place.Embedded style sheets refer to when you embed style sheet information into an HTML document using the <style> element.it do this by embedding the style sheet information within <style></style> tags in the head of your document.
+
+     -->The CSS syntax for embedded style sheets is exactly the same 
+        as other CSS code.
+
+
+Q-15. What are the external style sheets?
+Ans. -->The external style sheet is generally used when you want to 
+        make changes on multiple pages. It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+
+     -->The external style sheet may be written in any text editor 
+        but must be saved with a .css extension. This file should not contain HTML elements. 
+
+
+Q-16. What are the advantages and disadvantages of using external style sheets? 
+Ans. -->Advantages:
+        -->With the help of External Style Sheets, the styles of numerous documents can be organized from one single file.
+
+        -->In External Style Sheets, Classes can be made for use on numerous HTML element types in many forms of the site.
+
+        -->?In complex contexts, Methods like selector and grouping can be implemented to apply styles.
+
+        Disadvantages:
+        -->An extra download is essential to import style information for each file.
+
+        -->The execution of the file may be deferred till the external style sheet is loaded.
+
+        -->While implementing style sheets, we need to test Web pages with multiple browsers in order to check compatibility issues.
+
+
+Q-17. What is the meaning of the CSS selector? 
+Ans. -->A CSS selector is the first part of a CSS Rule. It is a 
+        pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector.
+
+     -->In other articles you may have met some different selectors, 
+        and learned that there are selectors that target the document in different ways — for example by selecting an element such as h1, or a class such as .special.
+
+
+Q-18. What are the media types allowed by CSS?     
+Ans. --> 1.continuous or paged.
+         2.visual, audio, speech, or tactile.
+         3.grid (for character grid devices), or bitmap.
+         4.interactive (for devices that allow user interaction), or static (for those that do not).
+         5.all (includes all media types)
+
+
+Q-19. What is the rule set?
+Ans. -->A CSS ruleset is various affirmations to various pieces or 
+        elements of the document. The objective is to apply a bunch of properties for certain distinct qualities to a solitary, or a particular arrangement of components in the connected HTML page. 
+
+
+Q-20. create Layouts
+Ans. -->A website is often divided into headers, menus, content and a footer.
+	1)Header :
+	Header is usually located at the top of the website (or right below a top navigation menu).
+
+	2)Navigation Bar :
+	A navigation bar contains a list of links to help visitors navigating through your website.
+	
+        3)Content :
+	The layout in this section, often depends on the target users. The most common layout is one (or combining them) of the following:
+	i. -column (often used for mobile browsers)
+	ii. -column (often used for tablets and laptops)
+	iii.-column layout (only used for desktops)
+	
+        4)Footer :
+	The footer is placed at the bottom of your page. It often contains information like copyright and contact information.
+
