@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.our {
+    background-color: rgba(240, 248, 255, 0.701);
+}
+.container {
+    margin: 0px 80px;
+}
+.our .our-p {
+    padding: 30px 0px;
+}
+.our .our-ser-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.our .our-ser-grid .ser-1 {
+    gap: 20px;
+}
+.our .our-ser-grid .ser-1 img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.our .our-ser-grid .ser-1 .text {
+    padding: 10px 5px;
+}    
+.our .our-ser-grid .ser-1 .text h3 {
+    font-size: 15px;
+    padding: 10px 0px;    
+    transition: 0.5s all ease;
+}
+.our .our-ser-grid .ser-1 .text h3:hover {
+    color: #d90429;
+}
+.our .our-ser-grid .ser-1 .text p {
+    color: gray;
+    font-size: 9px;
+    padding-bottom: 10px;
+}
+.our .our-ser-grid .ser-1 .text hr {
+    border: 1px dotted rgba(128, 128, 128, 0.485);
+}
+.our .our-ser-grid .ser-1 .text p1 {
+    font-size: 9px;
+    color: gray;
+    padding-top: 10px;
+}
+.our .our-ser-grid .ser-1 .text p1 i {
+    color: #d90429;
+}
