@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* common css which is apply in full page  */
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    margin: 0px 80px 0px 80px;
+}
+/* ===================== header ===================== */
+header {
+    background-color: white;
+}
+header .header-p {
+    padding: 25px 0px;
+}
+header .navigations {
+    display: flex;
+    align-items: center;
+}
+header .navigations .logo {
+    flex: 0.5;
+}
+header .navigations .logo a{
+    color: black;
+    font-size: 30px;
+}
+header .navigations .logo a span {
+    color:  #dd3333;;
+}
+header .navigations .nav {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navigations .nav .navi .home {
+    color: #dd3333;
+}
+header .navigations .nav ul {
+    display: flex;
+    gap: 15px;
+}
+header .navigations .nav ul a {
+    color: black;
+    transition: 0.5s all ease;
+}
+header .navigations .nav ul a:hover {
+    color: #dd3333;
+}
+header .navigations .nav ul span {
+    color: black;
+}
+header .navigations .nav .search {
+    display: flex;
+    align-items: center;
+}
+header .navigations .nav .search input{
+    height: 40px;
+    width: 180px;
+    padding: 10px 15px;
+    background-color: white;
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    border-radius: 5px;
+}
+header .navigations .nav .search input:focus-visible{
+    outline: none;
+}
+header .navigations .nav .search form {
+    position: relative;
+    padding-right: 55px;
+}
+header .navigations .nav .search button {
+    position: absolute;
+    height: 40px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: #dd3333;
+    color: white;
+    border-radius: 0px 40px 40px 0px;
+    transition: 0.5s all ease;
+}
+header .navigations .nav .search button:hover {
+    background-color: #f48924;
+}
+header .navigations .theme {
+    padding-left: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+header .navigations .theme span {
+    font-size: 20px;
+}
+header .navigations .theme button {
+    display: none;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: #dd3333;
+    border-radius: 8px;
+    border: none;
+}

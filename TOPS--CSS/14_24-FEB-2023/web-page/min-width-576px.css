@@ -1,0 +1,109 @@
+@media (min-width:576px) {
+    .container {
+        margin: 0px 35px;
+    }
+    
+    /* ===================== header ===================== */
+    header .navigations .logo {
+        flex: 1;
+    }
+    header .navigations .nav {
+        display: none;
+    }
+    header .navigations .theme button {
+        display: block;
+    }
+
+    /* ================= HomeImage ================== */
+    .HomeImage .Home-p {
+        padding: 150px 0px;
+    }
+    .HomeImage .HomeText p{
+        font-size: 20px;
+    }
+    .HomeImage .HomeText h1 {
+        font-size: 50px;
+        width: 85%;
+    }
+    
+    /* ======================= help ======================= */
+    .help .help-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .help .help-flex .right-help-data .right-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-top: 20px;
+
+    }
+
+    /* ===================== happy ====================== */
+    .happy .happy-p {
+        padding: 45px 25px;
+    }
+    .happy .happy-flex {
+        display: block;
+    }
+    .happy .happy-flex .left-image {
+        margin: 30px 0px;
+    }
+
+    /* =================== service ================== */
+    .service .ser-p {
+        padding: 70px 40px;
+    }
+    .service .ser-grid {
+        grid-template-columns: repeat(1,3fr);
+    }    
+
+    /* ======================= activities ======================= */
+    .activities .act-p {
+        padding: 30px 30px ; 
+    }
+    .activities .act-flex {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .activities .act-flex .right-image img {
+        height: 550px;
+        width: 500px;
+    }
+
+    /* ========================== post ======================== */
+    .post .post-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
+    }
+
+    /* ==================== about ====================== */
+    .about .about-p {
+        padding: 30px 0px;
+    }
+    .about .about-flex {
+        display: grid;
+        gap: 50px;
+    }
+    .about .about-flex .right-image img {
+        height: 480px;
+    }    
+    /* ================== footer =================== */
+    .footer .footer-p{
+        padding: 50px 50px;
+    }
+    .footer .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(1,3fr);
+        gap: 50px;
+    }
+    .footer .footer-grid .footer-address {
+        padding-left: 300px;
+    }
+    .footer .footer-grid .footer-news input{
+        width: 230px;   
+    }
+    .footer .footer-grid .footer-news button{
+        width: 90px;
+    }    
+}

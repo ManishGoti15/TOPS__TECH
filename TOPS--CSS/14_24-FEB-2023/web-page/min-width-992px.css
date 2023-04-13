@@ -1,0 +1,108 @@
+@media (min-width:992px) {
+    .container {
+        margin: 0px 35px;
+    }
+
+    /* ===================== header ===================== */
+    header .navigations .logo {
+        flex: 0.5;    
+    }
+    header .navigations .nav {
+        display: flex;
+    }
+    header .navigations .theme button {
+        display: none;
+    }   
+    
+    /* ================== HomeImage ================== */     
+    .HomeImage .HomeText p{
+        font-size: 22px;
+    }
+    .HomeImage .HomeText h1 {
+        font-size: 63px;
+        width: 45%;
+    }
+    
+    /* ======================= help ======================= */
+    .help .help-flex {
+        display: flex;
+        flex-direction: row;
+    }
+    .help .help-flex .right-help-data .right-grid{
+        padding-top: 0;
+    }
+    
+    /* ===================== happy ====================== */
+    .happy .happy-p {
+        padding: 30px 0px;
+    }
+    .happy .happy-flex {
+        display: flex;
+    }
+    .happy .happy-flex .left-image {
+        flex: 1;
+    }    
+    
+    /* =================== service ================== */
+    .service .ser-p {
+        padding: 80px 0px;
+    }
+    .service .ser-grid {
+        grid-template-columns: repeat(3,1fr);
+    }    
+
+    /* ======================= activities ======================= */
+    .activities .act-p {
+        padding: 120px 0px ; 
+    }
+    .activities .act-flex {
+        flex-direction: row;
+        gap: 90px;
+    }
+    .activities .act-flex .right-image img {
+        height: 500px;  
+        width: 450px;
+    }      
+    
+    /* ========================== post ======================== */
+    .post .post-grid{
+        grid-template-columns: repeat(3,1fr);
+    }    
+
+    /* ==================== about ====================== */
+    .about .about-p {
+        padding: 120px 0px;
+    }
+    .about .about-flex {
+        display: flex;
+        gap: 90px;
+    }
+    .about .about-flex .right-image img {
+        height: 500px;
+    }
+
+    /* ================== footer =================== */
+    .footer .footer-p{
+        padding: 50px 0px;
+    }
+    .footer .footer-grid{
+        display: flex;
+        gap: 0px;
+    }
+    .footer .footer-grid .footer-logo {
+        flex: 1;
+    }
+    .footer .footer-grid .footer-address {
+        flex: 0.5;
+        padding-left: 0px;
+    }
+    .footer .footer-grid .footer-news { 
+        flex: 0.5;
+    }
+    .footer .footer-grid .footer-news input{
+        width: 230px;   
+    }
+    .footer .footer-grid .footer-news button{
+        width: 50px;
+    }     
+} 

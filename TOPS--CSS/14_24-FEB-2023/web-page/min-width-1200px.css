@@ -1,0 +1,24 @@
+@media (min-width:992px) {
+    .container {
+        margin: 0px 130px;
+    }
+    /* header value inherit from 992px */
+
+     /* ================== HomeImage ================ */     
+    .HomeImage .HomeText h1 {
+        width: 55%;
+    }
+    /* help section inherit from 992px */
+
+    /* happy section inherit from 992px  */ 
+
+    /* service section inherit from 992px */
+
+    /* activities section inherit from 992px */
+
+    /* post section inherit from 992px */
+    
+    /* about section inherit from 992px */
+
+    /* footer section inherit from 992px */
+}

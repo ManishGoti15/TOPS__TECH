@@ -1,0 +1,79 @@
+@media (min-width:768px) {
+    /* header inherit from min-width-576px */
+
+    /* ================= HomeImage =================== */
+    .HomeImage .Home-p {
+        padding: 200px 0px;
+    }
+    .HomeImage .HomeText p{
+        font-size: 22px;
+    }
+    .HomeImage .HomeText h1 {
+        font-size: 58px;
+    }
+    
+    /* ======================= help ======================= */
+    .help .help-flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .help .help-flex .right-help-data .right-grid {
+        padding-top: 25px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    
+    /* ===================== happy ====================== */
+        .happy .happy-p {
+        padding: 45px 25px;
+    }
+
+    /* =================== service ================== */
+    .service .ser-p {
+        padding: 100px 30px;
+    }
+    .service .ser-grid {
+        grid-template-columns: repeat(2,2fr);
+    }
+
+    /* ======================= activities ======================= */
+    .activities .act-p {
+        padding: 45px 45px ; 
+        
+    }
+    .activities .act-flex {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .activities .act-flex .right-image img {
+        height: 600px;
+        width: 600px;
+    }      
+    /* ========================== post ======================== */
+    .post .post-grid{
+        grid-template-columns: repeat(2,1fr);
+    }    
+
+    /* ==================== about ====================== */
+    .about .about-p {
+        padding: 45px 0px;
+    }
+    .about .about-flex .right-image img {
+        height: 600px;
+    } 
+
+    /* ================== footer =================== */
+    .footer .footer-p{
+        padding: 50px 80px;
+    }
+    .footer .footer-grid .footer-address {
+        padding-left: 450px;
+    }
+    .footer .footer-grid .footer-news input{
+        width: 320px;   
+    }
+    .footer .footer-grid .footer-news button{
+        width: 90px;
+    }     
+}
