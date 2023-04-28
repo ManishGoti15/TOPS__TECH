@@ -1,0 +1,38 @@
+Q.1 What is jQuery? 
+Ans.--> jQuery is a fast, small, cross-platform and feature-rich JavaScript library. It is designed to simplify the client-side scripting of HTML. It makes things like HTML document traversal and manipulation, animation, event handling, and AJAX very simple with an easy-to-use API that works on a lot of different type of browsers.
+
+        jQuery is a lightweight, "write less, do more", JavaScript library.
+
+		The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+		jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+==================================
+
+Q.2 How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery,JQuery Animation?
+Ans.--> addClass() - Adds one or more classes to the selected elements.
+		Syntax ::
+			$(selector).addClass(classname,function(index,currentclass)).
+					-------------------------
+	  removeClass() - Removes one or more classes from the selected elements.
+		Syntax ::
+			$(selector).removeClass(classname,function(index,currentclass)).
+					-------------------------
+	  toggleClass() - Toggles between adding/removing classes from the selected elements.
+		Syntax ::
+			$(selector).toggleClass(classname,function(index,currentclass),switch).
+					-------------------------
+	  jQuery Animations - The animate() Method
+	  The jQuery animate() method is used to create custom animations.
+	  	Syntax :: 
+			$(selector).animate({params},speed,callback);
+	  The required params parameter defines the CSS properties to be animated.
+
+==================================
+
+Q.3 How to create slider with animation?
+Ans.--> Step 1: Come up with a strategy for the slider. You can make as many modifications as you want to Slider Revolution templates. ...
+	  Step 2: Update the background image in each slide. ...	
+	  Step 3: Update the text layers in each slide. ...
+	  Step 4: Edit the button text and design in each slide. ...
+	  Step 5: Edit the slider navigation.
