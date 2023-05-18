@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Ysabeau:wght@500&display=swap');
+
+
+/* ======== common css ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ysabeau",sans-serif ;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Neucha";
+    color: #323b43 !important;
+    font-weight: 700;
+}
+
+
+/* =========== Navigation ============= */
+header {
+    box-shadow: 0px 0px 5px 0px #297d2d9a;
+
+}
+header .navbar-nav {
+    justify-content: end !important;
+    width: 100%;
+}
+header .navbar-nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700 !important;
+}
+header h1 {
+    font-size: 40px !important;
+    color: #2a7d2e !important; 
+    font-weight: 600;
+}
+header .navbar-brand {
+    color: #2a7d2e !important;
+    font-weight: 700;
+}
+header .navbar-nav a.active {
+    color: #2a7d2e !important;
+}
+header .navbar-nav a:hover{
+    color: #2a7d2e !important;
+}
+
+
+/* ============= Homeimage Swiper css ============ */
+.homeimage .swiper {
+    width: 100%;
+    height: 100%;
+}
+.homeimage .swiper-slide {
+    font-size: 18px;
+    background: #fff;
+}
+.homeimage .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 22px;
+    color: #ffffff;
+    opacity: 1;
+    background: rgba(130, 130, 130, 0);
+    padding: 0px 150px;
+}
+.homeimage .swiper-pagination-bullet-active {
+    color: #00ff0d;
+}
+.homeimage .slider1 {
+    background-image: url(../image/img1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.homeimage .slider2 {
+    background-image: url(../image/img2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.homeimage .slider3 {
+    background-image: url(../image/img3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.homeimage .slider4 {
+    background-image: url(../image/img4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+.homeimage .slider1::after, .slider2::after, .slider3::after, .slider4::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000000a1;
+    z-index: -1
+}
+.homeimage .gc{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.homeimage .content {
+    padding: 30px 0px;
+}
+
+
+/* =============== Farming ============== */
+/* .farming .h-w {
+    width: 400px;
+} */
+.farming .f-grid {
+    position: relative;
+}
+.farming .f-grid .f-text {
+    position: absolute;
+    /* top: 0; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2a7d2eaa;
+    display: grid;
+    place-content: center;
+    height: 0%;
+    width: 100%;
+    overflow: hidden;
+    transition: 1s all ease-in-out;
+}
+.farming .f-grid:hover .f-text{
+    height: 100%;
+}
+.farming .f-grid .inner-t {
+    transition: 0.5s all ease-in-out;
+    transform: scaleY(0);
+    /* visibility: hidden; */
+}
+.farming .f-grid:hover .inner-t {
+    height: 100%;
+    /* visibility:visible; */
+    transform: scaleY(1);
+}
+.farming .f-grid .f-text h3 {
+    font-size: 25px;
+}
+.farming .f-b-t a {
+    color: #323b43;
+    font-weight: 700;
+}
+.farming .f-b-t a:hover {
+    color: #2a7d2e;
+}
+
+
+/* ============== About Form =============== */
+.about-form {
+    background-color: #f2fbf2;
+}
+.about-form h6 {
+    color: #2a7d2e !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.about-form h1 {
+    color: #323b43;
+    font-weight: 700;
+    font-size: 50px;
+}
+.about-form .about-f-t {
+    display: flex;
+    gap: 0px;
+} 
+.about-form .list-group-item {
+    color: #323b43;
+    font-weight: 700;
+    background: transparent;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.about-form .list-group-item.active {
+    border-bottom: 5px solid #2a7d2e;
+    color: #2a7d2e;
+}
+.about-form .link { 
+    border-bottom: 4px solid #2a7d2e;
+    padding-bottom: 10px;
+    width: 95px;
+}
+.about-form .link a { 
+    color: #323b43 !important;
+    font-weight: 700;
+    transition: 0.5s all ease;
+}
+.about-form .link a:hover { 
+    color: #2a7d2e !important;
+
+}
+.about-form .link span {
+    font-size: 12px;
+}
+
+
+/* =============== About Self =============== */
+.about-self h6 {
+    color: #2a7d2e !important;
+    font-weight: 700;
+    font-size: 20px;
+}
+.about-self h1 {
+    color: #323b43;
+    font-weight: 700;
+    font-size: 50px;
+}
+.about-self .a-self {
+    /* border: 2px solid black; */
+    padding: 10px;
+}
+.about-self .a-self:hover .icon {
+    background-color: #2a7d2e;
+    color: white;    
+}
+.about-self .a-self .icon{
+    height: 80px;
+    width: 80px;
+    border: 5px solid #2a7d2e;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    font-size: 25px;
+    color: #2a7d2e;
+    margin: auto;
+}
+.about-self .a-self h4 a {
+    color: #323b43;
+}
+.about-self .a-self h4 a:hover {
+    color: #2a7d2e;
+}
+
+
+/* ============= Request Form ============== */
+.req-form {
+    background-image: url(../image/img4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.req-form::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(7, 10, 12, 0.71);
+    z-index: -1;
+}
+.req-input {
+    background-color: white;
+    padding: 60px;
+}
+.req-form .req-input h5 {
+    color: #2a7d2e !important;
+}
+.req-form .req-input .user-input{
+    height: 45px;
+    width: 100%;
+    border: 2px solid #8080802e;
+    border-radius: 40px;
+}
+.req-form .req-input .user-input:focus{
+    box-shadow: none;
+    border: 2px solid #2a7d2e;
+}
+.req-form .req-input button{
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #2a7d2e;
+    color: white;
+    border-radius: 40px;
+    transition: 0.5s all ease;
+}
+.req-form .req-input button:hover{
+    background: #323b43;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ========== media Query =========== */
+@media (max-width:576px) {
+    .homeimage .swiper-pagination-bullet {
+        padding: 0px 50px;
+    }
+}
+@media (min-width:576px) {
+    .homeimage .swiper-pagination-bullet {
+        padding: 0px 65px;
+    }
+}
+@media (min-width:768px) {
+    .homeimage .swiper-pagination-bullet {
+        padding: 0px 90px;
+    }
+    .farming .f-p {
+        width: 350px;
+    }    
+}
+@media (min-width:992px) {
+    .homeimage .swiper-pagination-bullet {
+        padding: 0px 120px;
+    }
+}
+@media (min-width:1200px) {
+    .homeimage .swiper-pagination-bullet {
+        padding: 0px 150px;
+    }
+}

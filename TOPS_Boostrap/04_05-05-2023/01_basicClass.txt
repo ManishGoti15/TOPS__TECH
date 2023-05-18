@@ -1,0 +1,8 @@
+font-size                   =>      fs-1 to fs-6
+font-bold                   =>      fw-bold
+font-style                  =>      fst-italic
+display flex                =>      d-flex
+display grid                =>      d-grid
+for responsive image class  =>      img-fluid
+justify-content-[values]
+align-item-[value]
