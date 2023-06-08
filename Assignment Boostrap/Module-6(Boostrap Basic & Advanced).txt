@@ -1,0 +1,97 @@
+Q.1 What are the advantages of Bootstrap?
+Ans.--> 1. Easy to prevent repetitions among multiple projects. 
+        2. Responsive design that can be used to adapt screen sizes and choose what shows and what doesn’t on any given device
+        3. Maintaining consistency among projects when using multiple developer teams
+        4. Quick design of prototypes
+        5. Cross-browser compatibility
+
+=======================================
+
+Q.2 What is a Bootstrap Container, and how does it work?
+Ans. --> Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.
+     --> Containers are the most basic layout element in Bootstrap and are required when using our default grid system.
+     --> Bootstrap comes with three different containers
+        1. Default container
+        2. Responsive container
+        3. Fluid containers
+
+=======================================
+
+Q.3 What are the default Bootstrap text settings? 
+Ans. --> Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5.
+     --> The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif.
+     --> In addition, all <p> elements have margin-top: 0 and margin-bottom: 1rem.
+
+=======================================
+
+Q.4 What do you know about the Bootstrap Grid System? 
+Ans.--> Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive.     Below is an example and an in-depth look at how the grid comes together.
+
+=======================================
+
+Q.5 What is the difference between Bootstrap-4 and Bootstrap-5.
+Ans.--> BOOTSTRAP 4 :--
+        -----------
+        The Bootstrap 4 form has jquery.
+        Bootstrap 4 has less collection of colors.
+        Bootstrap 4 has Browsers restrictions.
+        Bootstrap 4 has has 5 tier grid system.
+        The APIs cannot be customized In Bootstrap 4.
+        In Bootstrap 4 positioning feature is absent.
+        Bootstrap 4 has Less CSS usability.
+        Bootstrap 4 Uses default form development tools.
+        There is no offcanvas component In Bootstrap 4.
+        Bootstrap 4 provides normal form layout with no advance features.
+        Bootstrap 4 Does not support RTL(right to left) switching in languages.
+        No themes customization In Bootstrap 4.
+        Bootstrap 4 has Small icon collection.
+
+        BOOTSTRAP 5 :--
+        -----------
+        The jquery is not utilized in Bootstrap 5.
+        Bootstrap 5 has vibrant and more colors available.
+        Bootstrap 5 improved the browser restriction.
+        Bootstrap 5 has 6 tier grid system.
+        Bootstrap 5 Allows modifying APIs or develop own API.
+        Columns can be positioned In Bootstrap 5.
+        More CSS properties also customized properties In Bootstrap 5.
+        Bootstrap 5 has Better development of forms.
+        The offcanvas component is added In Bootstrap 5.
+        Bootstrap 5 Provides advance and attractive features to make forms.
+        Bootstrap 5 supports RTL(right to left) switching in languages.
+        Bootstrap 5 Provides theme customization.
+        Bootstrap 5 has Large icon collection.
+
+=======================================
+
+Q.6 What is a Button Group, and what is the class for a basic Button Group?
+Ans.--> “Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally.
+
+    This is the basic syntax of the button group class where each button has its own class of “btn”.
+
+    <div class="btn-group">
+        <button type="button" class="btn">Click</button>
+    </div>
+    Buttons have a default border-radius on the first and last buttons of the group.
+
+=======================================
+
+Q.7 How can you use Bootstrap to make thumbnails?
+Ans.--> Add an <a> tag with the class of .thumbnail around an image.
+        This adds four pixels of padding and a gray border.
+        On hover, an animated glow outlines the image.
+
+=======================================
+
+Q.8 In Bootstrap 4, what is flexbox?
+Ans.--> In Bootstrap 4, flex box is used to control the layout and alignment specification of Bootstrap 4 components. This box makes it easier to design flexible responsive layout structures without using float or positioning attributes.
+
+=======================================
+
+Q.9 How can one create an alert in Bootstrap?
+Ans.--> Alerts are created with the .alert class, followed by one of the four contextual classes .alert-success, .alert-info, .alert-warning or .alert-danger:
+
+=======================================
+
+Q.10 What is a bootstrap card and how would you create one?
+Ans.--> A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options.
