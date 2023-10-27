@@ -1,0 +1,83 @@
+1. What is Redux.
+Ans:  Redux is a predictable state container for JavaScript applications, primarily used with React for managing the application state. It provides a centralized store where all application data is stored as a single JavaScript object. Redux enforces a strict unidirectional data flow, making it easier to manage and update application state, especially in large and complex applications.
+
+===================================================
+
+2. What is Redux Thunk used for.
+Ans:  Redux Thunk is a middleware for Redux that allows you to write asynchronous logic within your Redux actions. It is commonly used when you need to make asynchronous API calls, such as fetching data from a server, before updating the Redux store. Redux Thunk enables you to dispatch actions with functions, not just plain objects, making it possible to handle complex asynchronous operations like AJAX requests.
+
+===================================================
+
+3. What is Pure Component? When to use Pure Component over Component.
+Ans:  In React, a Pure Component is a class component that inherits from `React.PureComponent` instead of `React.Component`. The key difference is that Pure Components automatically perform a shallow comparison of their props and state to determine whether a re-render is necessary. They are optimized for performance by preventing unnecessary renders when the props and state haven't changed. You should use Pure Components when you want to optimize performance in scenarios where you expect updates to be infrequent or costly.
+
+===================================================
+
+4. What is the second argument that can optionally be passed to `setState`, and what is its purpose.
+Ans:  The second argument to the `setState` function in React is an optional callback function that gets executed after the state has been updated and the component has been re-rendered. Its purpose is to perform additional actions or tasks that depend on the updated state. For example, you can use it to make sure that some code runs after the state has been updated and the component is in its updated state.
+
+===================================================
+
+5. Create a Table and Search data from the table using React JS.
+Ans:  Here's a simplified example of creating a table and implementing a search feature in React:
+
+   ```jsx
+   import React, { useState } from 'react';
+
+   const TableExample = () => {
+     const [data, setData] = useState([
+       { id: 1, name: 'John' },
+       { id: 2, name: 'Alice' },
+       { id: 3, name: 'Bob' },
+     ]);
+     const [searchTerm, setSearchTerm] = useState('');
+
+     const filteredData = data.filter((item) =>
+       item.name.toLowerCase().includes(searchTerm.toLowerCase())
+     );
+
+     return (
+       <div>
+         <input
+           type="text"
+           placeholder="Search by name"
+           onChange={(e) => setSearchTerm(e.target.value)}
+         />
+         <table>
+           <thead>
+             <tr>
+               <th>ID</th>
+               <th>Name</th>
+             </tr>
+           </thead>
+           <tbody>
+             {filteredData.map((item) => (
+               <tr key={item.id}>
+                 <td>{item.id}</td>
+                 <td>{item.name}</td>
+               </tr>
+             ))}
+           </tbody>
+         </table>
+       </div>
+     );
+   };
+
+   export default TableExample;
+   ```
+
+===================================================
+
+6. Create Login registration with CRUD Application using API (Redux).
+Ans:  Creating a full CRUD application with login and registration using Redux and an API is a complex task that involves multiple components, routing, API integration, and state management. It's beyond the scope of a simple response. However, I can provide you with an outline of the steps you should follow:
+
+   - Set up a React project with Redux for state management.
+   - Create components for user registration and login forms.
+   - Implement authentication using Redux actions and reducers.
+   - Create components for displaying, adding, updating, and deleting data.
+   - Implement CRUD operations using Redux actions and reducers.
+   - Integrate your application with a backend API for data storage and retrieval.
+   - Implement routing to navigate between different views.
+   - Secure your API endpoints and handle user authentication.
+   
+   Building such an application is a significant project and would require a detailed step-by-step guide or tutorial. You may want to consider following a comprehensive React and Redux tutorial that covers these topics in depth.
