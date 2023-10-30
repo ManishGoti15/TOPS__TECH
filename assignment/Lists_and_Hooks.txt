@@ -1,0 +1,70 @@
+* Class Component Lifecycle with Hooks:
+---------------------------------------
+
+* Class components have a set of lifecycle methods that allow you to hook into various stages of a 
+  component's life. Here's a brief overview of the lifecycle stages in a class component:
+
+1. Mounting Phase:
+
+	.constructor(props): The constructor is the first method called when a component is created. 
+				It's used for initializing state and binding methods.
+	
+	.componentWillMount(): This method is called right before the component is inserted into the DOM.
+	
+	.render(): The render method is where the JSX is returned, describing what should be rendered on the 
+			screen.
+	
+	.componentDidMount(): This method is called after the component is rendered into the DOM. 
+				It's commonly used for making API calls or setting up subscriptions.
+
+2. Updating Phase:
+
+	.shouldComponentUpdate(nextProps, nextState): This method is called before a re-render and allows you 
+	to control whether the component should update based on changes in props or state.
+
+	.componentWillUpdate(nextProps, nextState): Called just before a re-render occurs.
+
+	.render(): Same as in the mounting phase.
+	
+	.componentDidUpdate(prevProps, prevState): Called after the component re-renders. Useful for side 
+		effects after an update.
+
+3. Unmounting Phase:
+
+	.componentWillUnmount(): This method is called when the component is about to be removed from the DOM. 
+	It's used for cleanup tasks like unsubscribing from events or cancelling timers.
+
+=============================================
+
+* Functional Component Lifecycle with Hooks:
+--------------------------------------------
+
+Functional components can achieve the same lifecycle behavior as class components using Hooks. Here's 
+how it's done:
+
+1. UseState: 
+    Instead of defining state in the constructor, you can use the useState hook to manage state in functional components.
+
+2. UseEffect:
+    UseEffect is the equivalent of componentDidMount, componentDidUpdate, and componentWillUnmount 
+    combined.
+
+    It's used for handling side effects, like data fetching, DOM manipulation, and subscriptions.
+
+    You can have multiple useEffect calls in a single functional component.
+
+    The first parameter is the function to execute, and the second parameter is an array of dependencies 
+    that determine when the effect should run.
+
+3. Other Hooks:
+    There are several other hooks like useContext, useReducer, and useCallback that handle specific concerns in functional components.
+
+    By using hooks like useState and useEffect, you can achieve the same lifecycle behavior and manage 
+    state and side effects in a more concise and readable manner within functional components. This makes 
+    the code easier to understand and maintain compared to the sometimes complex lifecycle methods in 
+    class components.
+
+
+
+
+
